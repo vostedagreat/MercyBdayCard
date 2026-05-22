@@ -11,5 +11,10 @@
       "source": "/envelope-preview.png",
       "destination": "/assets/download%20(7).jpg"
     }
+    ,
+    {
+      "source": "/whatsapp-preview.png",
+      "destination": "/assets/download%20(7).jpg"
+    }
   ]
 }
