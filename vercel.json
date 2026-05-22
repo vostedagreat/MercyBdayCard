@@ -6,5 +6,10 @@
       "source": "/",
       "destination": "/mercy.html"
     }
+    ,
+    {
+      "source": "/envelope-preview.png",
+      "destination": "/assets/download%20(7).jpg"
+    }
   ]
 }

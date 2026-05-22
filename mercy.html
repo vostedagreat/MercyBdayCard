@@ -7,12 +7,12 @@
     <!-- Open Graph tags for rich link previews (WhatsApp, Messenger, etc.) -->
     <meta property="og:title" content="You've Received a Special Delivery! ✉️✨" />
     <meta property="og:description" content="Tap to open your birthday envelope..." />
-    <!-- Use the project image. Absolute raw GitHub URL helps preview before Vercel domain is live -->
-    <meta property="og:image" content="https://raw.githubusercontent.com/vostedagreat/MercyBdayCard/main/assets/download%20(7).jpg" />
+    <!-- Use the project preview image (served via Vercel rewrite /envelope-preview.png) -->
+    <meta property="og:image" content="https://mercy-bday-card.vercel.app/envelope-preview.png" />
     <meta property="og:image:alt" content="A cute heart balloon illustration" />
-    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:type" content="image/png" />
     <!-- site-relative fallback (will resolve once deployed on Vercel) -->
-    <link rel="image_src" href="/assets/download%20(7).jpg" />
+    <link rel="image_src" href="/envelope-preview.png" />
     <style>
         :root{
             --card-bg: rgba(255,250,244,0.86);
